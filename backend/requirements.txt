@@ -1,0 +1,38 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+
+# Database
+aiosqlite==0.20.0
+sqlalchemy==2.0.36
+
+# Validation & Settings
+pydantic==2.9.2
+pydantic-settings==2.6.1
+email-validator==2.2.0
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[argon2]==1.7.4
+argon2-cffi==23.1.0
+python-multipart==0.0.12
+
+# WebSocket
+websockets==13.1
+
+# Network Scanning
+python-nmap==0.7.1
+scapy==2.6.1
+
+# Utilities
+psutil==6.1.0
+requests==2.32.3
+python-dotenv==1.0.1
+netifaces==0.11.0
+
+# GPU Monitoring
+GPUtil==1.4.0
+
+# QR Code Generation
+qrcode==7.4.2
+pillow==10.4.0
